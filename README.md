@@ -1,2 +1,3 @@
-# Datensatzanzeige_im_Kundendialog
-Im Kundendialog wird unten eine Leiste ergänzt, die den aktuellen Datensatz und die Gesamtanzahl anzeigt. Beim Navigieren und Löschen wird die Anzeige automatisch aktualisiert. Umsetzung erfolgt über QStatusBar, QSqlTableModel, QDataWidgetMapper und passende Aktionen.
+# Kundenverwaltung_Anzeige_&_Suche
+Im Kundendialog zeigt eine Leiste den aktuellen Datensatz und die Gesamtanzahl. Die Anzeige aktualisiert sich beim Navigieren und Löschen. Zusätzlich ermöglicht eine Suchfunktion die gezielte Nachnamenssuche per Eingabedialog. Ergebnisse erscheinen in einer Tabelle.
+
