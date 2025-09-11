@@ -1,0 +1,9 @@
+<RCC>
+  <qresource prefix="bilder">
+    <file>ganzhinten.xpm</file>
+    <file>ganzvorne.xpm</file>
+    <file>hinten.xpm</file>
+    <file>loeschen.xpm</file>
+    <file>vorne.xpm</file>
+  </qresource>
+</RCC>

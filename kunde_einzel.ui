@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>KundeEinzel</class>
+ <widget class="QMainWindow" name="KundeEinzel">
+  <property name="windowModality">
+   <enum>Qt::ApplicationModal</enum>
+  </property>
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>245</width>
+    <height>250</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Einzelanzeige Kunden</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLineEdit" name="lineEdit_ort">
+    <property name="geometry">
+     <rect>
+      <x>72</x>
+      <y>150</y>
+      <width>133</width>
+      <height>20</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>46</y>
+      <width>51</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Vorname:</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_plz">
+    <property name="geometry">
+     <rect>
+      <x>72</x>
+      <y>124</y>
+      <width>133</width>
+      <height>20</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_name">
+    <property name="geometry">
+     <rect>
+      <x>72</x>
+      <y>72</y>
+      <width>133</width>
+      <height>20</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_6">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>176</y>
+      <width>40</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Telefon:</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_strasse">
+    <property name="geometry">
+     <rect>
+      <x>72</x>
+      <y>98</y>
+      <width>133</width>
+      <height>20</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>98</y>
+      <width>36</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Straße:</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_telefon">
+    <property name="geometry">
+     <rect>
+      <x>72</x>
+      <y>176</y>
+      <width>133</width>
+      <height>20</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_vorname">
+    <property name="geometry">
+     <rect>
+      <x>72</x>
+      <y>46</y>
+      <width>133</width>
+      <height>20</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>124</y>
+      <width>21</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>PLZ:</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>72</y>
+      <width>46</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Name:</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_5">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>150</y>
+      <width>20</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Ort:</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_ID">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>20</y>
+      <width>133</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="readOnly">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_7">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>20</y>
+      <width>51</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>ID:</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QToolBar" name="toolBar">
+   <property name="windowTitle">
+    <string>toolBar</string>
+   </property>
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+   <addaction name="actionGanz_nach_vorne"/>
+   <addaction name="actionEinen_nach_vorne"/>
+   <addaction name="actionEinen_nach_hinten"/>
+   <addaction name="actionGanz_nach_hinten"/>
+   <addaction name="actionL_schen"/>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+  <action name="actionGanz_nach_vorne">
+   <property name="icon">
+    <iconset resource="icons.qrc">
+     <normaloff>:/bilder/ganzvorne.xpm</normaloff>:/bilder/ganzvorne.xpm</iconset>
+   </property>
+   <property name="text">
+    <string>Ganz nach vorne</string>
+   </property>
+  </action>
+  <action name="actionGanz_nach_hinten">
+   <property name="icon">
+    <iconset resource="icons.qrc">
+     <normaloff>:/bilder/ganzhinten.xpm</normaloff>:/bilder/ganzhinten.xpm</iconset>
+   </property>
+   <property name="text">
+    <string>Ganz nach hinten</string>
+   </property>
+  </action>
+  <action name="actionEinen_nach_vorne">
+   <property name="icon">
+    <iconset resource="icons.qrc">
+     <normaloff>:/bilder/vorne.xpm</normaloff>:/bilder/vorne.xpm</iconset>
+   </property>
+   <property name="text">
+    <string>Einen nach vorne</string>
+   </property>
+  </action>
+  <action name="actionEinen_nach_hinten">
+   <property name="icon">
+    <iconset resource="icons.qrc">
+     <normaloff>:/bilder/hinten.xpm</normaloff>:/bilder/hinten.xpm</iconset>
+   </property>
+   <property name="text">
+    <string>Einen nach hinten</string>
+   </property>
+  </action>
+  <action name="actionL_schen">
+   <property name="icon">
+    <iconset resource="icons.qrc">
+     <normaloff>:/bilder/loeschen.xpm</normaloff>:/bilder/loeschen.xpm</iconset>
+   </property>
+   <property name="text">
+    <string>Löschen</string>
+   </property>
+  </action>
+ </widget>
+ <resources>
+  <include location="icons.qrc"/>
+ </resources>
+ <connections/>
+</ui>
